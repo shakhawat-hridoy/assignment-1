@@ -24,25 +24,13 @@ h3{
 }
 .flexible{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .half-width{
     width: 50%;
     margin: 0% 5%;
 }
 .half-width img{
-    height: 80%;
-    width: 90%;
-}
-.sixty{
-    width: 60%;
-    margin: 0% 5%;
-}
-.fourty{
-    width: 60%;
-    margin: 0% 5%;
-}
-.fourty  img{
     height: 80%;
     width: 90%;
 }
@@ -79,10 +67,10 @@ button{
     background-color: rgb(253, 197, 253);
 }
 #vission{
-    background-color: rgb(179, 247, 224);
+    background-color: rgb(190, 248, 229);
 }
 #goal{
-    background-color: rgb(247, 231, 168);
+    background-color: cornsilk;
 }
 #block{
     display: block;
@@ -91,7 +79,6 @@ button{
 .col{
     display: block;
 }
-
 footer{
     text-align: center;
     color: white;
