@@ -16,7 +16,7 @@ h3{
 }
 .h1{
     border-left: 4px solid rgb(5, 145, 155);
-    height: 20%;
+    padding-left: 2%;
     margin-top: 20%;
 }
 .colored-text{
