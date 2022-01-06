@@ -37,16 +37,16 @@ h3{
 button{
     background-image: linear-gradient(rgb(11, 218, 245), rgb(128, 103, 241)) ;
     color: black;
-    height: 40px;
+    height: 50px;
     border-color: white;
     border-radius: 10px;
     font-weight: bolder;
 }
 .small{
-    width: 100px;
+    width: 120px;
 }
 .big{
-    width: 180px;
+    width: 220px;
 }
 .centre h2{
     text-align: center;
