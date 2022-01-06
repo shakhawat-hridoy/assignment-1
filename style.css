@@ -16,6 +16,8 @@ h3{
 }
 .h1{
     border-left: 4px solid rgb(5, 145, 155);
+    height: 20%;
+    margin-top: 20%;
 }
 .colored-text{
     color: rgb(11, 218, 245);
@@ -29,6 +31,18 @@ h3{
     margin: 0% 5%;
 }
 .half-width img{
+    height: 80%;
+    width: 90%;
+}
+.sixty{
+    width: 60%;
+    margin: 0% 5%;
+}
+.fourty{
+    width: 60%;
+    margin: 0% 5%;
+}
+.fourty  img{
     height: 80%;
     width: 90%;
 }
@@ -46,7 +60,7 @@ button{
 .big{
     width: 180px;
 }
-.second h2{
+.centre h2{
     text-align: center;
 }
 .bold{
@@ -65,10 +79,10 @@ button{
     background-color: rgb(253, 197, 253);
 }
 #vission{
-    background-color: rgb(190, 252, 190);
+    background-color: rgb(179, 247, 224);
 }
 #goal{
-    background-color: rgb(193, 175, 245);
+    background-color: rgb(247, 231, 168);
 }
 #block{
     display: block;
@@ -82,9 +96,8 @@ footer{
     text-align: center;
     color: white;
     background-color: black;
-    padding: 2%;
+    padding: 1%;
 } 
 footer h3{
-    font-family: 'Moon Dance', cursive;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lobster", cursive;
 }
