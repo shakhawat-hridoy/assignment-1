@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    /* padding: 2%; */
 }
 h1{
     font-size: 50px;
@@ -16,25 +15,25 @@ h3{
     font-weight: bold;
 }
 .h1{
-    border-left: 4px solid rgb(129, 129, 248);
+    border-left: 4px solid rgb(5, 145, 155);
 }
 .colored-text{
     color: rgb(11, 218, 245);
 }
 .flexible{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
+    margin: 0% 5%;
 }
 .half-width img{
     height: 80%;
-    width: 70%;
-    padding-left: 10%;
+    width: 90%;
 }
 button{
-    background-image: linear-gradient(rgb(11, 218, 245), rgb(9, 88, 99)) ;
+    background-image: linear-gradient(rgb(11, 218, 245), rgb(128, 103, 241)) ;
     color: black;
     height: 40px;
     border-color: white;
@@ -72,11 +71,15 @@ button{
 }
 #block{
     display: block;
-    color: red;
+    color: rgb(3, 226, 241);
+}
+.col{
+    display: block;
 }
 footer{
     text-align: center;
     color: white;
     background-color: black;
     padding: 2%;
+    font-family: 'Poppins', sans-serif;
 } 
