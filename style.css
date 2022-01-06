@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    padding: 2%;
+    /* padding: 2%; */
 }
 h1{
     font-size: 50px;
@@ -16,10 +16,10 @@ h3{
     font-weight: bold;
 }
 .h1{
-    border-left: 2px solid tomato;
+    border-left: 4px solid rgb(129, 129, 248);
 }
 .colored-text{
-    color: tomato;
+    color: rgb(11, 218, 245);
 }
 .flexible{
     display: flex;
@@ -31,39 +31,52 @@ h3{
 .half-width img{
     height: 80%;
     width: 70%;
+    padding-left: 10%;
 }
 button{
-    background-color: orangered;
-    color: white;
+    background-image: linear-gradient(rgb(11, 218, 245), rgb(9, 88, 99)) ;
+    color: black;
+    height: 40px;
     border-color: white;
-    border-radius: 5px;
-    height: 30px;
+    border-radius: 10px;
+}
+.small{
     width: 100px;
+}
+.big{
+    width: 180px;
 }
 .second h2{
     text-align: center;
 }
-.mi{
-    background-color: violet;
+.bold{
+    font-weight: bolder;
+}
+.mi-vi-go{
     width: 33%;
     padding: 2%;
     margin: 1.5%;
     border-radius: 15px; 
 }
-.vi{
-    background-color: pink; 
-    width: 33%;
-    padding: 2%;
-    margin: 1.5%;
-    border-radius: 15px;  
+.mi-vi-go img{
+    width: 30%;
 }
-.go{
-    background-color: royalblue;
-    width: 33%;
-    padding: 2%;
-    margin: 1.5%;
-    border-radius: 15px; 
+#mission{
+    background-color: rgb(253, 197, 253);
 }
-.block{
+#vission{
+    background-color: rgb(190, 252, 190);
+}
+#goal{
+    background-color: rgb(193, 175, 245);
+}
+#block{
     display: block;
+    color: red;
 }
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2%;
+} 
